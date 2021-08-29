@@ -31,16 +31,14 @@ header footer {
 body {
     display: flex;
     flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
+	  font-family: 'Montserrat', sans-serif;
     text-align: center;
-    height: 100%;
+    justify-content: space-evenly;
 }
 
 nav {
-    display: inline block;
     display: flex;
     flex-direction: column;
-
 }
 
 ul {
@@ -57,4 +55,5 @@ li {
 footer {
     position: sticky;
     bottom: 0;
+    text-align: center;
 }
