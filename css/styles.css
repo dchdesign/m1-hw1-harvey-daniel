@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+/*------ Sticky Footer ----------*/
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+header footer {
+  flex-shrink: 0;
+}
+/*------- Sticky Footer (end) --*/
+
+body {
+    display: flex;
+    flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    height: 100%;
+}
+
+nav {
+    display: inline block;
+    display: flex;
+    flex-direction: column;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+}
